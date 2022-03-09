@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Streak</title>
+    
+
+    <style>
+        /* CSS RESET */
+        body {
+            color: white;
+            
+            margin: 0px;
+            padding: 0px;
+            background: url('img/The_Empty_Gym.jpg');
+            
+
+
+        }
+
+        .left {
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            display: block;
+
+
+        }
+
+        .mid {
+
+            width: 51%;
+            display: block;
+            margin: 25px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 35px;
+            top: 15px;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 25px;
+        }
+
+        .navbar li a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        /* .navbar li a.active{
+            color:rgb(104, 100, 100);
+            text-decoration: underline;s
+        } */
+        .left img {
+            width: 170px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        #TEXT {
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 0px;
+        }
+
+        .btn {
+            margin: 50px 10px;
+            padding: 6px 15px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .btn:hover {
+            color: grey;
+            cursor: pointer;
+        }
+        .container{
+            border: 5px solid white;
+            margin:150px 410px;
+            width:40%;
+            padding:75px;
+            border-radius: 28px;
+            
+        }
+       .form-group input{
+           display: block;
+           font-size: 20px;
+           font-weight: bold;
+           padding:10px;
+           width: 350px;
+           text-align: center;
+           margin:15px auto;
+           border-radius: 30px;
+
+       }
+       .butn{
+           width:180px;
+           margin-top: 30px;
+           margin-left: 220px;
+           border-radius: 20px;
+           font-size: 20px;
+           font-weight: bold;
+           padding: 10px;
+       }
+       .container h1{
+           text-align: center;
+           color: white;
+       }
+       .butn:hover{
+           color:grey;
+       }
+       .foot {
+           background-color: white;
+           text-align: center;
+           font-weight: 200;
+           margin-bottom: 0px;
+       }
+       .foot p{
+           color: black;
+           font: 20px;
+       }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="img/2-removebg-preview.png" alt="">
+            <div id="TEXT">THE Streak</div>
+        </div>
+        <div class="mid">
+            <!-- mid box for navigation -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Streak</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right box for buttons -->
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+        <h1>Join The Best GYM of Jamshedpur Now !</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="butn">Submit</button>
+        </form>
+        </div>
+    </header>
+    <div class="foot">
+        
+            <p>Copyright March 2022.</p>
+             <p>All Rights Reserved.</p>
+             <p>The Streak is Created and edited by Rishav Rai.</p>
+             
+        
+    </div>
+    
+</body>
+
+</html>
